@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+
+        type으로 모양이 달라진다
+        text, password, number, date, file
+        여러 개 중의 하나 - select
+            name은 select에 준다
+            선택했을 때의 값은
+            option에 value라는 속성이 없으면 글자
+    -->
+
+    <form action="/weather" method="post">
+        <select name="month">
+            <option disabled selected>월을 선택하세요</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        <button>보내기</button>
+    </form>
+</body>
+</html>
